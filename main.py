@@ -15,7 +15,7 @@ def start(message):
 @bot.message_handler(content_types=["document"])
 def main(message):
 	if not str(message.chat.id) == '1267649387':
-		bot.reply_to(message, "You cannot use the bot to contact developers to purchase a bot subscription @NOTBASRA")
+		bot.reply_to(message, "You cannot use the bot to Contact developers to purchase a bot subscription @NOTBASRA")
 		return
 	dd = 0
 	live = 0
